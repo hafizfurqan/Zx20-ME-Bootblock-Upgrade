@@ -79,4 +79,16 @@ This will replace Bootblock from 2011 with 2013 and both will be of 64k.
 and updating to latest bios version.
 
 After successful completion, poweroff (machine) and restore jumpers to their designated positions.
+
+# Default Position Jumpers on Z420
+
+- https://github.com/hafizfurqan/Zx20-ME-Bootblock-Upgrade/blob/00401320eacb7955e1b4040fbd924bce16ca561e/images/IMG_20241114_130747.jpg
+
+
+- https://github.com/hafizfurqan/Zx20-ME-Bootblock-Upgrade/blob/00401320eacb7955e1b4040fbd924bce16ca561e/images/IMG_20241114_130755.jpg
+
+
+
+- https://github.com/hafizfurqan/Zx20-ME-Bootblock-Upgrade/blob/00401320eacb7955e1b4040fbd924bce16ca561e/images/IMG_20241114_131002.jpg
+
 and now you have a working v2 supported fully upgraded Hp (3rd Gen) Zx20 Workstation.
