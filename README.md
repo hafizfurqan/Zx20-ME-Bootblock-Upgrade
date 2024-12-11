@@ -82,13 +82,13 @@ After successful completion, poweroff (machine) and restore jumpers to their des
 
 # Default Position Jumpers on Z420
 
-![image](https://user-images.githubusercontent.com/hafizfurqan/Zx20-ME-Bootblock-Upgrade/blob/00401320eacb7955e1b4040fbd924bce16ca561e/images/IMG_20241114_130747.jpg?raw=true)
+![image](https://user-images.githubusercontent.com/hafizfurqan/Zx20-ME-Bootblock-Upgrade/blob/00401320eacb7955e1b4040fbd924bce16ca561e/images/IMG_20241114_130747.jpg)
 
 
-![image](https://user-images.githubusercontent.com/hafizfurqan/Zx20-ME-Bootblock-Upgrade/blob/00401320eacb7955e1b4040fbd924bce16ca561e/images/IMG_20241114_130755.jpg?raw=true)
+![image](https://user-images.githubusercontent.com/hafizfurqan/Zx20-ME-Bootblock-Upgrade/blob/00401320eacb7955e1b4040fbd924bce16ca561e/images/IMG_20241114_130755.jpg)
 
 
 
-![image](https://user-images.githubusercontent.com/hafizfurqan/Zx20-ME-Bootblock-Upgrade/blob/00401320eacb7955e1b4040fbd924bce16ca561e/images/IMG_20241114_131002.jpg?raw=true)
+![image](https://user-images.githubusercontent.com/hafizfurqan/Zx20-ME-Bootblock-Upgrade/blob/00401320eacb7955e1b4040fbd924bce16ca561e/images/IMG_20241114_131002.jpg)
 
 and now you have a working v2 supported fully upgraded Hp (3rd Gen) Zx20 Workstation.
