@@ -18,13 +18,14 @@ Successfully upgraded method found for upgrading bootblock of 20 series HP works
   4. Poweroff (machine) and place password jumper to E14 and change FD0 jumper from its original position to unlock ME changes, and note change.
   5. Boot with created usb and create a backup of full bios. Can be done simply doing:
      
-cd IMET8
+-     cd IMET8
 
-backup 00
+-     backup 00
 
 A bunch of files will get created, slicing and dicing the BIOS chip contents. You can follow up with [md5all 00] command, it will compute md5sums for all of these files.
 
-- dir *00.bin
+
+-      dir *00.bin
 
 -             65,536 BBLK00.BIN
 -         10,944,512 BIOB00.BIN
@@ -37,10 +38,10 @@ A bunch of files will get created, slicing and dicing the BIOS chip contents. Yo
 -              8,192 PDRO00.BIN
   7. Update by going to folder and typing:
 
-cd MEBX20
+-     cd MEBX20
 
 
-MEBLAST J6Y_0396.bin
+-     MEBLAST J6Y_0396.bin
 
 or to folder you created and extracted files to and giving command.
 
@@ -58,7 +59,7 @@ or to folder you created and extracted files to and giving command.
   5. Again take a backup of entire bios.
   6. Initiate update of ME onto same version by typing :
 
-MEBLAST J6Y_0396.bin
+-     MEBLAST J6Y_0396.bin
 
   in ME folder
   
@@ -66,14 +67,14 @@ MEBLAST J6Y_0396.bin
   7. Now restart (machine), and you will be greeted with **MANUFACTURING MODE**. This is exactly what we need.
   8. Boot again to DOS usb now this time go to backup folder and run this command, remember X is either 6 for Z620, or 8 for Z820 since you unpacked the correct file:
 
-fpt.exe  -f B13VX20.bin -A 0xFF0000 -L 0x010000
+-     fpt.exe  -f B13VX20.bin -A 0xFF0000 -L 0x010000
 
 This will replace Bootblock from 2011 with 2013 and both will be of 64k.
   9. Now we restore GBE and ME by isuing
 
-fpt.exe -ME -f MEOO11.bin
+-     fpt.exe -ME -f MEOO11.bin
 
-fpt.exe -GBE -f GBEO11.bin
+-     fpt.exe -GBE -f GBEO11.bin
 
 and updating to latest bios version.
 
